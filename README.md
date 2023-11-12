@@ -6,9 +6,8 @@
 **cd path/to/JavaProject**
 4. Compile the code using: <br />
 **javac Main.java ImageProcessor.java** or **javac Main.java**
-5. Run the program usingL <br />
-**java Main someImage.jpg squareSize processingMode(S/M)** <br />
-where **someImage.jpg** is the name of the image, **squareSize** is desired pixel number, and **processingMode** is desired thread mode which can be either
+5. Run the program using: <br />
+**java Main someImage.jpg squareSize processingMode(S/M)** where **someImage.jpg** is the name of the image, **squareSize** is desired pixel number, and **processingMode** is desired thread mode which can be either
 **S** which stands for single-thread mode or **M** which stands for multi-thread mode. <br/ >
 6. If your inputs are right a window with image that is being gradually processed will open. You can close it at any point, but if you do it before image is
 done processng the result will not be saved. After it is don processing the image will be saved as soon as you close the window.
